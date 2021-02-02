@@ -10,12 +10,22 @@ header {
     text-align: center;
 }
 
-.about, .logo{
+
+.about_holder {
+    background-color: #ff9e0255;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0;
+}
+
+.logo{
   width: 50%;
 }
 
 .about {
     line-height: 24px;
+    padding-left: 20%;
+    padding-right: 20% ;
 }
 
 .members,
@@ -23,31 +33,45 @@ header {
   display: flex;
 }
 
+.members_social  {
+    justify-content: center;
+}
+
 .members {
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: center;
+    margin: 20px 100px;
 }
 
 .social_icon {
-  color: #ffba4c;
-  font-size: 1.5rem;
+  color: #ff9e02;
+  font-size: 2rem;
+}
+
+.social_list {
+    margin: 20px;
 }
 
 .members_holder {
     background-color: #f5f5f5;
-    width: 25%;
+    width: 15%;
+    height: 250px;
+    padding: 50px 10px;
+    margin: 20px 50px;
 }
 
 .members_avatar {
-  width: 30%;
+  width: 150px;
   border-radius: 50%;
+  border: 1px solid #ff9e02;;
 }
 
 .members_name {
   font-family: "Autour One", cursive;
   color: #1C11BA;
+  padding: 20px 0;
 }
 
 footer {
-  background-color: #ffba4c;
+  background-color:  #ff9e02;
+  height: 50px;
 }
