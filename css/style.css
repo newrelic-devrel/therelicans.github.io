@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #0f0774; 
+  color: #f5f5f5;
+  text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.about, .logo{
+  width: 50%;
+}
+
+.about {
+    line-height: 24px;
+}
+
+.members,
+.members_social {
+  display: flex;
+}
+
+.members {
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.social_icon {
+  color: #ffba4c;
+  font-size: 1.5rem;
+}
+
+.members_holder {
+    background-color: #f5f5f5;
+    width: 25%;
+}
+
+.members_avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.members_name {
+  font-family: "Autour One", cursive;
+  color: #1C11BA;
+}
+
+footer {
+  background-color: #ffba4c;
+}
