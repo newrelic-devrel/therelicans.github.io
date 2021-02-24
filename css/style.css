@@ -1,31 +1,36 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  background-color: #0f0774; 
-  color: #f5f5f5;
+  background-color: #0f0774;
+
+  color: #0f0774;
   text-align: center;
 }
 
+
+
 header {
-    text-align: center;
+  text-align: center;
 }
 
+.header-elem {
+  width: 100%;
+}
 
 .about_holder {
-    background-color: #ff9e0255;
-    text-align: center;
-    padding: 50px;
-    margin: 50px 0;
-}
-
-.logo{
-  width: 50%;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 100px;
 }
 
 .about {
-    line-height: 24px;
-    padding-left: 20%;
-    padding-right: 20% ;
+  line-height: 3rem;
+  background-color: #fbc46d;
+  width: 40%;
+  font-size: 1.5rem;
+  padding: 50px;
+  margin: auto;  
+  color: #1c11ba;
 }
 
 .members,
@@ -33,45 +38,53 @@ header {
   display: flex;
 }
 
-.members_social  {
-    justify-content: center;
+.members_social {
+  justify-content: center;
 }
 
 .members {
-    justify-content: center;
-    margin: 20px 100px;
+  justify-content: center;
+  margin: 20px 100px;
 }
 
 .social_icon {
-  color: #ff9e02;
+  color: #fa6933;
   font-size: 2rem;
 }
 
+.social_icon:hover{
+  font-size: 2.25rem;
+  text-decoration: underline;
+  color: #ff9e02;
+}
+
+
 .social_list {
-    margin: 20px;
+  margin: 20px;
 }
 
 .members_holder {
-    background-color: #f5f5f5;
-    width: 15%;
-    height: 250px;
-    padding: 50px 10px;
-    margin: 20px 50px;
+  background-color: #f5f5f5;
+  width: 12%;
+  height: 250px;
+  padding: 50px 10px;
+  margin: 20px 50px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(245, 145, 87, 0.75);
 }
 
 .members_avatar {
   width: 150px;
   border-radius: 50%;
-  border: 1px solid #ff9e02;;
+  border: 1px solid #ff9e02;
 }
 
 .members_name {
   font-family: "Autour One", cursive;
-  color: #1C11BA;
   padding: 20px 0;
 }
 
 footer {
-  background-color:  #ff9e02;
+  background-color: #ff9e02;
   height: 50px;
 }
